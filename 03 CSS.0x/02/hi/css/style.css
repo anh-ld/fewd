@@ -1,0 +1,33 @@
+body {
+  background-color: #83AF9B;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background-color: #FE4356;
+  color: #F9CDAD;
+  font-size: 8rem;
+  padding: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  color: #FE4365;
+  background-color: #F9CDAD;
+  font-size: 3rem;
+}
+
+img {
+  height: 250px;
+}
+
+p {
+  background-color: #FC9D9A;
+  color: white;
+  padding: 2.5rem;
+  font-size: 2rem;
+  margin-bottom: 0;
+}

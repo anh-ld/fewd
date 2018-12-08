@@ -1,0 +1,35 @@
+body {
+  margin: 50px;
+  background-color: #FFFF99;
+  font-family: Helvetica;
+}
+
+h1 {
+  color: #FF6600;
+  font-family: Impact;
+  font-size: 3rem;
+  border: 4px solid #FF6600;
+  padding: 0.8rem;
+}
+
+h2 {
+  color: #FFFF99;
+  background-color: #FF6600;
+  font-family: "Courier New";
+  padding: 2rem 0.8rem 1rem 0.8rem;
+}
+
+ol {
+  color: #FFFF99;
+  background-color: #FFCC00;
+}
+
+li {
+  font-weight: bold;
+  padding: 0.8rem 0.8rem 0.8rem 0;
+}
+
+p {
+  border: 4px dotted #FFCC00;
+  padding: 0.8rem;
+}

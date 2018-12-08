@@ -1,0 +1,44 @@
+#root {
+  font-family: sans-serif;
+  margin: 1rem auto;
+  width: 18.5rem;
+}
+
+.post {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.postList {
+  padding: 0;
+}
+
+.postText {
+  background-color: whitesmoke;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.postText:first-of-type {
+  width: 10rem;
+}
+
+.postText:last-of-type {
+  text-align: center;
+  width: 2rem;
+}
+
+input, button {
+  border: 2px solid blue;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+input {
+  width: 12.5rem;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "company": "Bret",
+    "email": "Sincere@april.biz"
+  },
+  {
+    "id": 2,
+    "name": "Johan Nerry",
+    "company": "Johny",
+    "email": "jnerry@best.me"
+  },
+  {
+    "id": 3,
+    "name": "Carleen Dean",
+    "company": "AZX",
+    "email": "carl@azx.com"
+  }
+]

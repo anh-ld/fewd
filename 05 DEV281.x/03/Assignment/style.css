@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+table, td, th {
+  border: 2px solid lightblue;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: lightblue;
+  color: white;
+}
+
+td, th {
+  padding: 0.5rem 1rem;
+}
+
+.remove {
+  color: red;
+}
+
+input {
+  border: 2px solid lightblue;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.activity, .checkbox, button, table {
+  margin-top: 1rem;
+}
+
+select {
+  color: red;
+}

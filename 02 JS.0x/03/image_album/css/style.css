@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0.8rem;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.img {
+  margin: 0.8rem 0.8rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.showImg {
+  margin: 0 0.8rem;
+}
+
+.showImgInfo {
+  width: 100%;
+  padding: 0 0.8rem;
+  margin: 0 0.8rem 0 0;
+}

@@ -1,0 +1,10 @@
+#root {
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  padding: 0.5rem 1rem;
+}
+input, textarea, select {
+  display: block;
+  margin-bottom: .5rem;
+}

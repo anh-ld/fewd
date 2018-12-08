@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+table caption {
+  font-size: 2rem;
+  padding: 20px;
+  color: blue;
+}
+
+table, th, td {
+  font-family: sans-serif;
+  border: 2px solid blue;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
+
+tr:nth-child(odd) td {
+  background-color: lightblue;
+}
+
+tr:nth-child(even) td {
+  background-color: lightskyblue;
+}
+
+tr:last-child td {
+  background-color: LightSeaGreen;
+}
+
+tr:hover td {
+  background-color: floralwhite;
+}

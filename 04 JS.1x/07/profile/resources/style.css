@@ -1,0 +1,10 @@
+.container {
+  padding: 2rem;
+  width: 30%;
+  font-family: sans-serif;
+  color: black;
+}
+
+#next {
+  width: 100%;
+}

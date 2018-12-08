@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="resources/library.js"></script>
+    <title>Product Examining via Promise</title>
+    <link rel="stylesheet" href="resources/style.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <div>
+        <h3>Search Product by Id</h3>
+        <input id="input" placeholder="Search...">
+        <button id="inputButton" >Search Product</button>
+      </div>
+      <div>
+        <h3>Examined Product</h3>
+        <p id="productText"></p>
+        <h3>List of Similar Products</h3>
+        <table id="similarTable" width="300px" border="1" >
+        <tr>
+          <th>ProductId</th>
+          <th>Type</th> 
+          <th>Price</th>
+          <th>Examine</th>
+        </tr>
+        </table>
+      </div>
+      <div>
+        <h3>List of All Products</h3>
+        <table id="allTable" width="300px" border="1" >
+          <tr>
+              <th>ProductId</th>
+              <th>Type</th> 
+              <th>Price</th>
+              <th>Examine</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="resources/productCatalog.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: whitesmoke;
+}
+
+h1, h3 {
+  color: red;
+}
+
+h2, p {
+  position: relative;
+  left: 50px;
+  color: grey;
+  width: 80%;
+}
+
+p {
+  width: 80%;
+}
+
+div {
+  background-color: lightblue;
+  position: relative;
+  left: 100px;
+  width: 80%;
+}
+
+h3 {
+  position: relative;
+  left: 15px;
+  top: 5px;
+}

@@ -1,0 +1,8 @@
+li {
+  font-family: sans-serif;
+  list-style-image: url(triangle.png);
+}
+h1 {
+  font-family: fantasy;
+  color: darkred;
+}

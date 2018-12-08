@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 0.2rem 1rem;
+  background-color: whitesmoke;
+  border-radius: 0.25rem;
+}
+
+#inputImage {
+  width: 350px;
+}
+
+#wrapper {
+  width:1020px;
+  display:table;
+}
+
+#jsonOutput {
+  width:600px;
+  display:table-cell;
+}
+
+#responseTextArea {
+  width:580px;
+  height:400px;
+}
+
+#imageDiv {
+  width:420px;
+  display:table-cell;
+}
+
+#sourceImage {
+  height: 400px;
+}

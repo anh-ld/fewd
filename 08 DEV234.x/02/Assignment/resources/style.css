@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap {
+  background-color: whitesmoke;
+  padding: 0.5rem 2rem;
+  border-radius: 0.25rem;
+}
+
+input {
+  width: 67%;
+}
+
+#inputButton {
+  width: 30%;
+}
+
+table, td {
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+button:hover,
+button:active {
+  background-color: aliceblue;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Loan App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/style.css">
+  </head>
+  <body class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 mx-auto">
+          <div class="card card-body text-center">
+            <h1 class="heading display-5 pb-3">Loan Calculator</h1>
+            <!-- input form -->
+            <form id="loan_form">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">$</div>
+                </div>
+                <input type="number" class="form-control" id="amount" placeholder="Loan Amount">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">%</div>
+                </div>
+                <input type="number" class="form-control" id="interest" placeholder="Interest">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Year</div>
+                </div>
+                <input type="number" class="form-control" id="year" placeholder="Year to Repay">
+              </div>
+              <div class="d-flex">
+                <button class="btn btn-light col-8 col-sm-8 col-md-9 mb-3" id="loan-submit">Calculate</button>
+                <button class="btn btn-dark col-4 col-sm-4 col-md-3 mb-3" id="clear">Clear</button>
+              </div>
+            </form>
+            <!-- loading animation -->
+            <div class="spinner"></div>
+            <!-- result form -->
+            <form id="result" class="pt-4">
+              <h3 class="mb-3">Result</h3>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Monthly Payment</div>
+                </div>
+                <input type="number" class="form-control" id="monthly_payment" disabled>
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Total Payment</div>
+                </div>
+                <input type="number" class="form-control" id="total_payment" disabled>
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Total Interest</div>
+                </div>
+                <input type="number" class="form-control" id="total_interest" disabled>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/app.js"></script>
+  </body>
+</html>

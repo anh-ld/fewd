@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Day</title>
+    <style media="screen">
+      body {
+        background-color: lightblue;
+        margin: 0;
+        font-family: sans-serif;
+      }
+      div {
+        font-size: 0;
+      }
+      @keyframes lighter {
+        from { opacity: 0; }
+        to { opacity: 0.85; }
+      }
+      img {
+        animation-name: lighter;
+        animation-duration: 1s;
+      }
+      img {
+        opacity: 0.85;
+        filter: blur(1px);
+        transition: filter 0.5s;
+      }
+      img:hover {
+        opacity: 1;
+        filter: blur(0px);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Daily Activities</h1>
+    <div class="morning">
+      <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-0.3.5&s=0896103193548cc35520c3c0d075c598&auto=format&fit=crop&w=1350&q=80"
+      alt="Working" title="Working" width=50%>
+      <img src="https://images.unsplash.com/photo-1512851515527-65f60b2d95fc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb46cbc33ab8ebc19b38442b92de326c&auto=format&fit=crop&w=1352&q=80"
+      alt="Walking" title="Walking" width=50%>
+    </div>
+    <div class="">
+      <img src="https://images.unsplash.com/photo-1519432473078-0151c4f90335?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a819108fcaf534c37adf8cb958cd569f&auto=format&fit=crop&w=1350&q=80"
+      alt="Playing Basketball" title="Playing Basketball" width=50%>
+      <img src="https://images.unsplash.com/photo-1532634745-d438fed1a87e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c8d58f06d1d6837c1e9f1723226bdb4&auto=format&fit=crop&w=1350&q=80"
+      alt="Meeting With Friends" title="Meeting With Friends" width=50%>
+    </div>
+  </body>
+</html>

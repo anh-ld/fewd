@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+  padding-top: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+span {
+  color: Turquoise;
+}
+
+a:link,
+a:visited {
+  color: skyblue;
+}
+
+a:active,
+a:hover {
+  color: deepskyblue;
+  transition: color 0.5s;
+}
+
+section {
+  display: flex;
+  margin: 0.5rem 0;
+}
+
+#exp, .badge, #charity, footer {
+  background-color: whitesmoke;
+}
+
+#exp {
+  width: 70%;
+  margin-right: 0.5rem;
+}
+
+#side {
+  width: 30%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.badge {
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-weight: bold;
+  padding: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  padding: 1rem;
+  line-height: 1.5rem;
+  width: 100%;
+}
+
+.jobTitle {
+  color: grey;
+}
+
+.info span:first-child {
+  font-size: 1.2rem;
+}
+
+.year {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+}
+
+#charity {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
+}

@@ -1,0 +1,9 @@
+#root {
+  font-family: sans-serif;
+  font-size: 4rem;
+  background-color: blue;
+}
+h1 {
+  margin: 0 1rem;
+  color: white;
+}

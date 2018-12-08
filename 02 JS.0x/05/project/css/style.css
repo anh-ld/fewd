@@ -1,0 +1,42 @@
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: green;
+}
+
+h1 {
+  background-color: whitesmoke;
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 2px solid orange;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+th, td  {
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+}
+
+tr:first-child {
+  background-color: orange;
+  color: white;
+}
+
+tr:not(:first-child):hover {
+  background-color: NavajoWhite;
+}

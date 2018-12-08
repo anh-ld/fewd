@@ -1,0 +1,38 @@
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+button {
+  border: 2px solid blue;
+  color: blue;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+table, th, td {
+  border: 2px solid blue;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+th, td  {
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+}
+
+tr:first-child {
+  background-color: blue;
+  color: white;
+}
+
+tr:not(:first-child):hover {
+  background-color: floralwhite;
+}

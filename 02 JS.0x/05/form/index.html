@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form id="myForm">
+    <fieldset>
+      <legend>Basic Info</legend>
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" id="fname" required>
+      <br>
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" required>
+      <br>
+      <label for="passw">Password</label>
+      <input type="password" name="passw" id="passw" required>
+      <!-- <meter value="5" min="0" max="10" id="strength"></meter> -->
+    </fieldset>
+    <fieldset>
+      <legend>Random bits I don't need, I'm just curious</legend>
+      <label for="dob">Birthday</label>
+      <input type="date" name="dob" id="dob">
+      <br/>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" autocomplete="off" />
+      <br/>
+      <label for="whereami">Hide and seek location</label>
+      <textarea name="whereami" id="whereami" rows="10"></textarea>
+      <br/>
+    </fieldset>
+  </form>
+</body>
+
+</html>

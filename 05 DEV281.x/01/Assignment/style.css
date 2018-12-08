@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 1rem 2rem;
+  font-family: sans-serif;
+  color: white;
+  background-color: blue;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.75rem 0;
+
+}
+
+p {
+  margin: 0.25rem 0;
+}
+
+table, td, th {
+  border: 2px solid white;
+}
+
+table {
+  margin: 0.5rem 0;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5rem 1rem;
+  width: 75px;
+  text-align: center;
+}
+
+select, button {
+  border: 1px solid white;
+  font-size: 0.8rem;
+}
+
+th {
+  background: white;
+  color: blue;
+}

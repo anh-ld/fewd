@@ -1,0 +1,41 @@
+html, body {
+  font-family: sans-serif;
+}
+.female {
+  color: blue;
+}
+.male {
+  color: red;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+#middlemarch li{
+  list-style-type: lower-roman;
+  list-style-position: inside;
+}
+#taletwocities {
+  list-style-type: lower-alpha;
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 5px 10px;
+  border-bottom: 1px dotted lightcoral;
+}
+ol {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 16px 40px;
+}
+h1 {
+  background-color: lightsalmon;
+}
+h2 {
+  background-color: lightgreen;
+}
+h3 {
+  background-color: lightblue;
+}

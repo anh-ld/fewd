@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid skyblue;
+}
+
+#time {
+  font-size: 5rem;
+  color: skyblue;
+  margin: 1rem 0;
+}
+
+#second {
+  font-size: 2.5rem;
+  color: lightskyblue;
+}
+
+button {
+  background-color: azure;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  border: 1px solid azure;
+}
+
+button:hover,
+button:active {
+  background-color: skyblue;
+}
+
+#records * {
+  margin: 0.25rem;
+  font-size: 1.5rem;
+  color: lightskyblue;
+}

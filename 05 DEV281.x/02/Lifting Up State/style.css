@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+button {
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 0.2rem;
+  color: white;
+  font-size: 2rem;
+  margin-right: .5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}

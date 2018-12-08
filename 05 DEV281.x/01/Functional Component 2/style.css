@@ -1,0 +1,9 @@
+#root {
+  font-family: sans-serif;
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+h1, h2, h3, ol {
+  margin: 0.5rem;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    <title>Chuck Norris Jokes Generator</title>
+    <link rel="stylesheet" href="resources/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Chuck Norris Jokes Generator</h1>
+      <form>
+        <label for="numberOfJokes">Number of jokes</label>
+        <div class="row">
+          <input type="number" placeholder="" id="numberOfJokes" required/>
+          <input id="getJokes" class="button-primary" type="submit" value="Get Jokes"/>
+        </div>
+      </form>
+      <div id="content"></div>
+    </div>
+    <div id="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+    <script src="resources/app.js"></script>
+  </body>
+</html>

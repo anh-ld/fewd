@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table, td {
+  border: 2px solid black;
+  border-radius: 0.25rem;
+}
+
+td {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+td:hover {
+  background-color: azure;
+}
+
+#restart {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: azure;
+  font-size: 1rem;
+  border-radius: 2px;
+}
+
+#restart:hover,
+#restart:active {
+  background-color: beige;
+}

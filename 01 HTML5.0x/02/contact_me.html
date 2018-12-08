@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <style media="screen">
+      section, header {
+        background-color: lightblue;
+      }
+      h2 {
+        background-color: lightgreen;
+      }
+      h1 {
+        background-color: lightsalmon;
+      }
+      p, ul, h1, h2 {
+        margin: 0;
+        padding: 5px 10px;
+        font-family: monospace;
+      }
+      li {
+        list-style: none;
+        font-size: 20px;
+      }
+      span {
+        font-weight: bold;
+        color: blue;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contact</h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#social">Social Media</a></li>
+          <li><a href="#email">Email</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="https://images.unsplash.com/photo-1521623475836-87d82a22184f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06e7c41276c46b9e236b27c7a074fe69&auto=format&fit=crop&w=1102&q=80"
+    alt="Contact">
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>
+        My name is <span>Duy Anh</span>. I'm <span id="year_old">year</span> years old. Currently, I'm in
+        my last year in my university <abbr title="Post and Telecommunication
+        Institue of Technology">PTIT</abbr>, majoring in Telecommunication. My
+        hobbies are playing games especially AOE1, watching cultural TV shows.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserun
+        mollit anim id est laborum.
+      </p>
+    </section>
+    <section id="social">
+      <h2>Social Media</h2>
+      <ul>
+        <li><a href="http://facebook.com/culeeiz">Facebook</a></li>
+        <li><a href="http://twitter.com/culeeiz">Twitter</a></li>
+      </ul>
+    </section>
+    <section id="email">
+      <h2>Email</h2>
+      <p>
+        You guys can ping me at:
+        <a href="mailto:ledzanh@gmail.com">ledzanh@gmail.com</a>
+      </p>
+    </section>
+
+    <script>
+      var n = new Date();
+      var y = n.getFullYear() - 1995;
+      document.getElementById("year_old").innerHTML = y;
+    </script>
+  </body>
+</html>

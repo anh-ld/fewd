@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    <link rel="stylesheet" href="resources/style.css">
+  </head>
+  <body>
+    <div class="container" id="alert"></div>
+    <div class="container">
+      <h1>Search GitHub Users</h1>
+      <h3>Enter username to fetch a user profile info and repos</h3>
+      <form>
+        <input type="text" placeholder="GitHub username..." id="user">
+      </form>
+    </div>
+    <div class="container" id="profile"></div>
+    <div class="container" id="repos"></div>
+    <script src="resources/github.js"></script>
+    <script src="resources/ui.js"></script>
+    <script src="resources/app.js"></script>
+  </body>
+</html>
