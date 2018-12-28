@@ -80,6 +80,8 @@ https://www.edx.org/microsoft-professional-program-front-end-development
 
 [Assignment 03](https://culee.github.io/fewd/05%20DEV281.x/03/Assignment/)
 
+[React To-do App](https://culee.github.io/fewd/05%20DEV281.x/04/To-do%20App/build/)
+
 ### 06 React and Redux
 
 [Restaurant](https://culee.github.io/restaurant)
@@ -93,5 +95,3 @@ https://www.edx.org/microsoft-professional-program-front-end-development
 [Stopwatch](https://culee.github.io/fewd/08%20DEV234.x/01/Assignment2/)
 
 [Product Fetching](https://culee.github.io/fewd/08%20DEV234.x/02/Assignment/)
-
-[Face API Demo](https://culee.github.io/fewd/08%20DEV234.x/03/Face%20API/)
