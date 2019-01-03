@@ -6,7 +6,7 @@ const Resume = () => {
       <p>
         Le Duy Anh<br />
         Skills: React.js, Node.js<br />
-        Experience: 07/2018 - 08/2018: Intership at Samsung SVMC.
+        Experience: 07/2018 - 09/2018: Internship at Samsung SVMC.
       </p>
     </div>
   );

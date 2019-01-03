@@ -82,9 +82,11 @@ https://www.edx.org/microsoft-professional-program-front-end-development
 
 [React To-do App](https://culee.github.io/fewd/05%20DEV281.x/04/To-do%20App/build/)
 
-### 06 React and Redux
+### 06 React Router and Redux
 
-[Restaurant](https://culee.github.io/restaurant)
+[Router](https://culee.github.io/fewd/06%20DEV282.x/01/lab/build/)
+
+[Restaurant](https://culee.github.io/fewd/06%20DEV282.x/03/lab/build/)
 
 ### 07 Building Functional Prototypes using Node.js
 
