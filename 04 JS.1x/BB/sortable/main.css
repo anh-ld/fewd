@@ -1,0 +1,21 @@
+body {
+	font-family: sans-serif;
+}
+
+ul {
+	width: 300px;
+	padding: 1rem 0;
+	margin: 0;
+	background-color: #FF6347;
+	border-radius: 0.25rem;
+	/*height: 500px;*/
+}
+
+li {
+	padding: 0.5rem 1rem;
+	text-align: center;
+	background-color: lightgrey;
+	margin: 0.5rem;
+	border-radius: 0.25rem;
+	list-style: none;
+}
