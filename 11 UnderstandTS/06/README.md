@@ -1,0 +1,1 @@
+tsc --outFile app.js  app.ts
